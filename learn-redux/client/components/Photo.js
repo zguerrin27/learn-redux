@@ -4,7 +4,7 @@ import CSSTransitionGroup from 'react-addons-css-transition-group'
 
 const Photo = React.createClass({
   render(){
-    const { post, index, comments } = this.props;  
+    const { post, index, comments } = this.props;   
 
     return (
       <figure className="grid-figure">
